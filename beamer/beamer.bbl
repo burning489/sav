@@ -1,0 +1,19 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{SXY18}
+
+\bibitem[SXY17]{article}
+Jie Shen, Jie Xu, and Jiang Yang, \emph{A new class of efficient and robust
+  energy stable schemes for gradient flows}, SIAM Review \textbf{61} (2017).
+
+\bibitem[SXY18]{SHEN2018407}
+Jie Shen, Jie Xu, and Jiang Yang, \emph{The scalar auxiliary variable (sav)
+  approach for gradient flows}, Journal of Computational Physics \textbf{353}
+  (2018), 407--416.
+
+\end{thebibliography}

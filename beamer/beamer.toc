@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Phase Field Recap}{2}{0}{1}
+\beamer@sectionintoc {2}{SAV Approach}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Main Idea}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Numerical Schemes}{9}{0}{2}
+\beamer@sectionintoc {3}{Numerical Experiments}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{Finite Difference Schemes for Cahn-Hiliard Equation}{15}{0}{3}
+\beamer@subsectionintoc {3}{2}{SAV with Fourier Transform for Allen-Cahn Equation}{21}{0}{3}
