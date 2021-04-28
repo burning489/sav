@@ -69,8 +69,8 @@ $$\left\{
 
 In the above,  operator $\mathcal G$ gives the dissipation mechanism:
 \begin{itemize}
-\item{$L^2$ gradient flows when $\mathcal G = -I$} (\textcolor{red}{Allen-Cahn})
-\item{$H^{-1}$ gradient flow when $\mathcal G = \Delta$} (\textcolor{red}{Cahn-Hiliard})
+\item{$L^2$ gradient flows when $\mathcal G = -I$} (Allen-Cahn)
+\item{$H^{-1}$ gradient flow when $\mathcal G = \Delta$} (Cahn-Hiliard)
  \item{$H^{-\alpha}$ gradient flow when $\mathcal G = -(-\Delta)^{\alpha}$ with $0 < \alpha < 1$}
 \end{itemize}
 In this talk, we choose periodic boundary conditions or  homogeneous Neumann boundary conditions. % such that boundary terms vanish when integrated by parts.
@@ -266,9 +266,9 @@ R_{n}=\left\{\begin{array}{l}
 $$
 $$
 b_{n}=\left\{\begin{array}{l}
--c^{n-1} \\
--3 c^{n-1}+\left(c^{n-1}\right)^{3} \\
--2\left(c^{n-1}\right)^{3}
+-\phi^{n-1} \\
+-3 \phi^{n-1}+\left(\phi^{n-1}\right)^{3} \\
+-2\left(\phi^{n-1}\right)^{3}
 \end{array}\right.
 $$
 \end{frame}
@@ -333,6 +333,19 @@ The modified and raw free energy changes as follow
  \label{fig:1}
 \end{figure}}
 \end{itemize}
+\end{frame}
+
+\section{Code}
+
+\begin{frame}
+Related code is uploaded to
+
+\url{https://github.com/burning489/cahn-hiliard} 
+
+\url{https://github.com/burning489/sav}
+
+Welcome further discussion :)
+
 \end{frame}
 
 \begin{frame}

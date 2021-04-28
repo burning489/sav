@@ -1,4 +1,4 @@
-function [phis,rs] = sav_centre()
+function [phis,rs] = sav_first_order()
 global dt epsilon k2 k4 C0 h N beta epsilon;
 N = 128;
 T = 20000;

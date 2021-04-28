@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.7)  26 APR 2021 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.7)  26 APR 2021 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1131,7 +1131,7 @@ Package epstopdf Info: Source file: <figures/whulogo.eps>
 ted-to.pdf figures/whulogo.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
-<figures/whulogo-eps-converted-to.pdf, id=41, 450.68375pt x 451.6875pt>
+<figures/whulogo-eps-converted-to.pdf, id=45, 450.68375pt x 451.6875pt>
 File: figures/whulogo-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/whulogo-eps-converted-to.pdf>
 Package pdftex.def Info: figures/whulogo-eps-converted-to.pdf  used on input li
@@ -1542,7 +1542,7 @@ ne 320.
 [21
 
 ]
-<figures/energy.jpg, id=210, 1171.37625pt x 878.28125pt>
+<figures/energy.jpg, id=218, 1171.37625pt x 878.28125pt>
 File: figures/energy.jpg Graphic file (type jpg)
 <use figures/energy.jpg>
 Package pdftex.def Info: figures/energy.jpg  used on input line 336.
@@ -1568,7 +1568,7 @@ ne 336.
 (pdftex.def)             Requested size: 24.52292pt x 24.58374pt.
 [22
 
- <./figures/energy.jpg>]
+ <./figures/energy.jpg>] (./beamer.toc)
 Package epstopdf Info: Source file: <figures/whulogo.eps>
 (epstopdf)                    date: 2006-06-04 21:22:44
 (epstopdf)                    size: 62392 bytes
@@ -1577,14 +1577,50 @@ Package epstopdf Info: Source file: <figures/whulogo.eps>
 (epstopdf)                    size: 21461 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/whulogo-eps-conver
 ted-to.pdf figures/whulogo.eps>
-(epstopdf)             \includegraphics on input line 342.
+(epstopdf)             \includegraphics on input line 338.
 Package epstopdf Info: Output file is already uptodate.
 File: figures/whulogo-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/whulogo-eps-converted-to.pdf>
 Package pdftex.def Info: figures/whulogo-eps-converted-to.pdf  used on input li
-ne 342.
+ne 338.
 (pdftex.def)             Requested size: 24.52292pt x 24.58374pt.
  [23
+
+]
+Package epstopdf Info: Source file: <figures/whulogo.eps>
+(epstopdf)                    date: 2006-06-04 21:22:44
+(epstopdf)                    size: 62392 bytes
+(epstopdf)             Output file: <figures/whulogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-02 10:04:08
+(epstopdf)                    size: 21461 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/whulogo-eps-conver
+ted-to.pdf figures/whulogo.eps>
+(epstopdf)             \includegraphics on input line 349.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/whulogo-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/whulogo-eps-converted-to.pdf>
+Package pdftex.def Info: figures/whulogo-eps-converted-to.pdf  used on input li
+ne 349.
+(pdftex.def)             Requested size: 24.52292pt x 24.58374pt.
+ [24
+
+]
+Package epstopdf Info: Source file: <figures/whulogo.eps>
+(epstopdf)                    date: 2006-06-04 21:22:44
+(epstopdf)                    size: 62392 bytes
+(epstopdf)             Output file: <figures/whulogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-02 10:04:08
+(epstopdf)                    size: 21461 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/whulogo-eps-conver
+ted-to.pdf figures/whulogo.eps>
+(epstopdf)             \includegraphics on input line 355.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/whulogo-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/whulogo-eps-converted-to.pdf>
+Package pdftex.def Info: figures/whulogo-eps-converted-to.pdf  used on input li
+ne 355.
+(pdftex.def)             Requested size: 24.52292pt x 24.58374pt.
+ [25
 
 ] (./beamer.bbl)
 Package epstopdf Info: Source file: <figures/whulogo.eps>
@@ -1595,14 +1631,15 @@ Package epstopdf Info: Source file: <figures/whulogo.eps>
 (epstopdf)                    size: 21461 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/whulogo-eps-conver
 ted-to.pdf figures/whulogo.eps>
-(epstopdf)             \includegraphics on input line 348.
+(epstopdf)             \includegraphics on input line 361.
 Package epstopdf Info: Output file is already uptodate.
 File: figures/whulogo-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/whulogo-eps-converted-to.pdf>
 Package pdftex.def Info: figures/whulogo-eps-converted-to.pdf  used on input li
-ne 348.
+ne 361.
 (pdftex.def)             Requested size: 24.52292pt x 24.58374pt.
- [24
+
+[26
 
 ]
 \tf@nav=\write6
@@ -1614,20 +1651,20 @@ ne 348.
 \tf@snm=\write8
 \openout8 = `beamer.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
  (./beamer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 363.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
 Package rerunfilecheck Info: File `beamer.out' has not changed.
-(rerunfilecheck)             Checksum: 7A6080A0D38A9A0FAEC4A7224D0FEC78;480.
+(rerunfilecheck)             Checksum: B55F8AB5361730341273C6C59FEC15AE;519.
  ) 
 Here is how much of TeX's memory you used:
- 23383 strings out of 480608
- 463589 string characters out of 5903631
+ 23400 strings out of 480608
+ 463746 string characters out of 5903631
  724967 words of memory out of 5000000
- 38608 multiletter control sequences out of 15000+600000
- 546878 words of font info for 69 fonts, out of 8000000 for 9000
+ 38617 multiletter control sequences out of 15000+600000
+ 547045 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,14n,95p,1805b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -1644,12 +1681,13 @@ ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/loca
 l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
 texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/te
-xlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb>
-Output written on beamer.pdf (24 pages, 235592 bytes).
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/
+texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb>
+Output written on beamer.pdf (26 pages, 247930 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
