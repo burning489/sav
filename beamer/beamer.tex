@@ -150,8 +150,8 @@ $$
 $$\left\{
 \begin{aligned}
 \frac{\phi^{n+1}-\phi^{n}}{\Delta t} &=\mathcal{G} \mu^{n+1} \\
-\mu^{n+1} &=\mathcal{L} \phi^{n+1}+\frac{r^{n+1}}{\sqrt{\mathcal{E}_{1}(\phi^{n})+C_0}} F^{\prime}(\phi)\\
-\frac{r^{n+1}-r^{n}}{\Delta t} &=\frac{1}{2 \sqrt{\mathcal{E}_{1}(\phi^{n})+C_0}} \int_{\Omega} F^{\prime}(\phi)\frac{\phi^{n+1}-\phi^{n}}{\Delta t} dx
+\mu^{n+1} &=\mathcal{L} \phi^{n+1}+\frac{r^{n+1}}{\sqrt{\mathcal{E}_{1}(\phi^{n})+C_0}} F^{\prime}(\phi^n)\\
+\frac{r^{n+1}-r^{n}}{\Delta t} &=\frac{1}{2 \sqrt{\mathcal{E}_{1}(\phi^{n})+C_0}} \int_{\Omega} F^{\prime}(\phi^n)\frac{\phi^{n+1}-\phi^{n}}{\Delta t} dx
 \end{aligned}
 \right.$$
 
@@ -189,7 +189,7 @@ $$(I-\Delta t \mathcal{G L}) x = b$$
 \begin{frame}{BDF2}
 $$\left\{
 \begin{aligned}
- \frac{3 \phi^{n+1}-4 \phi^{n}+\phi^{n-1}}{2 \Delta t} &=\mathcal{G} \mu^{n+1}, \\ \mu^{n+1} &=\mathcal{L} \phi^{n+1}+\frac{r^{n+1}}{\sqrt{\mathcal{E}_{1}(\bar{\phi}^{n+1})+C_0}} F^{\prime}(\phi) \\ 3 r^{n+1}-4 r^{n}+r^{n-1} &=\int_{\Omega} \frac{F^{\prime}(\phi)}{2 \sqrt{\mathcal{E}_{1}(\bar{\phi}^{n+1})+C_0}}\left(3 \phi^{n+1}-4 \phi^{n}+\phi^{n-1}\right) dx
+ \frac{3 \phi^{n+1}-4 \phi^{n}+\phi^{n-1}}{2 \Delta t} &=\mathcal{G} \mu^{n+1}, \\ \mu^{n+1} &=\mathcal{L} \phi^{n+1}+\frac{r^{n+1}}{\sqrt{\mathcal{E}_{1}(\bar{\phi}^{n+1})+C_0}} F^{\prime}(\bar{\phi}^{n+1}) \\ 3 r^{n+1}-4 r^{n}+r^{n-1} &=\int_{\Omega} \frac{F^{\prime}(\bar{\phi}^{n+1})}{2 \sqrt{\mathcal{E}_{1}(\bar{\phi}^{n+1})+C_0}}\left(3 \phi^{n+1}-4 \phi^{n}+\phi^{n-1}\right) dx
  \end{aligned}
 \right.$$
 
@@ -207,7 +207,7 @@ The semi-implicit BDF2 can be replaced by semi-implicit Crank–Nicolson scheme.
 
 \subsection{Finite Difference Schemes for Cahn-Hiliard Equation}
 \begin{frame}{Problem}
-Consider free energy functional $\mathcal E(\phi) = \int_{\Omega} \left[ \frac{\varepsilon^2}{2}|\nabla \phi|^2 + \frac{\phi^2(1-\phi^2)}{4} \right]dx$
+Consider free energy functional $\mathcal E(\phi) = \int_{\Omega} \left[ \frac{\varepsilon^2}{2}|\nabla \phi|^2 + \frac{(1-\phi^2)^2}{4} \right]dx$
 
 One can obtain Cahn-Hiliard Equation from it
 $$\left\{
@@ -309,7 +309,12 @@ I ran the above five schemes on $[0,1]^2 \times 200\Delta t $, with smooth initi
 %					controls,
 %					width=.5\textwidth]{15}{./figures/cahn-hiliard/ex1/}{001}{200}
 
-The animation gif files are in attachment.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.18]{phases/ch_phases.jpeg}
+ \caption{phases transition}
+ \label{fig:1}
+\end{figure}
 \end{frame}
 
 \subsection{SAV with Fourier Transform for Allen-Cahn Equation}
@@ -323,16 +328,24 @@ The animation gif files are in attachment.
 \begin{itemize}
 \item{I ran the above five schemes on $[0,1]^2 \times 20000\Delta t $, with smooth initial conditions $\phi_0(x,y) = 0.05 sin(2\pi x)sin(2\pi y)$, and the mesh resolution was set $128\times128$. The difference scheme was first order.}
 \item{
-The animation gif files are in attachment.}
-\item{
+ \begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.18]{phases/sav_phases.jpeg}
+ \caption{phases transition}
+ \label{fig:2}
+\end{figure}
+}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Energy decay}
 The modified and raw free energy changes as follow
  \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.15]{energy.jpg}
+  \includegraphics[scale=0.35]{energy.jpg}
  \caption{Modified and Raw Free Energy}
- \label{fig:1}
-\end{figure}}
-\end{itemize}
+ \label{fig:3}
+\end{figure}
 \end{frame}
 
 \section{Code}
